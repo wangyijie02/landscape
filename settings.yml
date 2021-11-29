@@ -533,6 +533,6 @@ prerender:
 export:
   end-users-reverse-chronological: enduser=yes&sort=joined&grouping=no
   members-reverse-chronological: category=platinum,gold,silver,academic,nonprofit&project=member&sort=joined&grouping=no
-  test-certified-kubernetes: category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer&grouping=no
+  certified-kubernetes: category=certified-kubernetes-distribution,certified-kubernetes-hosted,certified-kubernetes-installer&grouping=no
   cncf-members: category=cncf-members&grouping=no
   cncf-platinum-members: category=platinum&grouping=no
