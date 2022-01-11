@@ -856,7 +856,7 @@ landscape:
             homepage_url: https://www.cloudmatos.com
             project: null
             repo_url: https://github.com/cloudmatos/matos
-            logo: cloudmatos_landscape
+            logo: cloudmatos_landscape.svg
             twitter: https://twitter.com/CloudMatos
             crunchbase: https://www.crunchbase.com/organization/cloudmatos
       - subcategory:
