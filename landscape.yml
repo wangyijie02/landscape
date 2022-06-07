@@ -109,6 +109,13 @@ landscape:
             twitter: https://twitter.com/CoulerProject
             crunchbase: https://www.crunchbase.com/organization/ant-financial
           - item:
+            name: DevStream
+            homepage_url: https://www.devstream.io/
+            repo_url: https://github.com/devstream-io/devstream
+            logo: devstream.svg
+            twitter: https://twitter.com/mericodev
+            crunchbase: https://www.crunchbase.com/organization/merico
+          - item:
             name: Digital Rebar
             homepage_url: https://rackn.com/rebar/
             repo_url: https://github.com/digitalrebar/provision
@@ -120,7 +127,6 @@ landscape:
             homepage_url: https://theforeman.org/
             repo_url: https://github.com/theforeman/foreman
             logo: foreman.svg
-            twitter: https://twitter.com/foremanproject
             crunchbase: https://www.crunchbase.com/organization/foreman
           - item:
             name: Juju
@@ -551,9 +557,9 @@ landscape:
           - item:
             name: Datree
             homepage_url: https://datree.io/
+            repo_url: https://github.com/datreeio/datree
             logo: datree logo Tall - color.svg
             crunchbase: https://www.crunchbase.com/organization/datree-io
-            repo_url: https://github.com/datreeio/datree
           - item:
             name: Dex
             homepage_url: https://github.com/dexidp/dex
@@ -1041,9 +1047,8 @@ landscape:
           - item:
             name: Teller
             homepage_url: https://tlr.dev
-            twitter: https://twitter.com/getspectral
-            repo_url: https://github.com/SpectralOps/Teller
             project: sandbox
+            repo_url: https://github.com/SpectralOps/Teller
             logo: teller.svg
             crunchbase: https://www.crunchbase.com/organization/spectral-4f70
           - item:
@@ -1137,13 +1142,14 @@ landscape:
           - item:
             name: CubeFS
             homepage_url: https://cubefs.io/
-            project: sandbox
+            project: incubating
             repo_url: https://github.com/cubeFS/cubefs
             logo: cubefs.svg
             twitter: https://twitter.com/ChubaoFS
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2019-12-17'
+              incubated: '2022-06-02'
               dev_stats_url: https://chubaofs.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#cubefs-logos
               slack_url: https://cubefs.slack.com/
@@ -1156,6 +1162,11 @@ landscape:
             repo_url: https://github.com/opencurve/curve
             logo: curve.svg
             crunchbase: https://www.crunchbase.com/organization/netease-com
+          - item:
+            name: DataCore Bolt
+            homepage_url: https://www.datacore.com/products/bolt-kubernetes-storage/
+            logo: datacore-bolt.svg
+            crunchbase: https://www.crunchbase.com/organization/datacore-software
           - item:
             name: Datera
             homepage_url: https://datera.io/
@@ -1294,12 +1305,6 @@ landscape:
               dev_stats_url: https://longhorn.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#longhorn-logos
           - item:
-            name: MayaData
-            homepage_url: https://mayadata.io/
-            logo: mayadata-stacked.svg
-            twitter: https://twitter.com/mayadata
-            crunchbase: https://www.crunchbase.com/organization/mayadata
-          - item:
             name: MinIO
             homepage_url: https://min.io/
             repo_url: https://github.com/minio/minio
@@ -1323,6 +1328,11 @@ landscape:
             homepage_url: https://www.nutanix.com/products/objects
             logo: nutanix.svg
             crunchbase: https://www.crunchbase.com/organization/nutanix
+          - item:
+            name: Ondat
+            homepage_url: https://www.ondat.io
+            logo: ondat.svg
+            crunchbase: https://www.crunchbase.com/organization/ondat
           - item:
             name: OpenEBS
             homepage_url: https://www.openebs.io/
@@ -1356,6 +1366,11 @@ landscape:
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#oras-logos
               blog_url: https://oras.land/blog/
               slack_url: https://cloud-native.slack.com/messages/oras
+          - item:
+            name: Pengyun Network
+            homepage_url: https://www.pengyunnetwork.com/
+            logo: pengyun.svg
+            crunchbase: https://www.crunchbase.com/organization/pengyun-network
           - item:
             name: Piraeus Datastore
             homepage_url: https://piraeus.io/
@@ -1426,8 +1441,8 @@ landscape:
               Sangfor Technologies is a leading global vendor of IT infrastructure solutions, specializing in Cloud Computing & Network Security with a wide
               range of products & services.
             homepage_url: https://www.sangfor.com.cn/product-and-solution/sangfor-its/3
-            twitter: null
             logo: sangfor.svg
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/sangfor-technologies
           - item:
             name: ScaleFlash
@@ -1454,11 +1469,6 @@ landscape:
             open_source: false
             twitter: https://twitter.com/kubestash
             crunchbase: https://www.crunchbase.com/organization/appscode
-          - item:
-            name: StorageOS
-            homepage_url: https://www.ondat.io
-            logo: storage-os.svg
-            crunchbase: https://www.crunchbase.com/organization/storageos
           - item:
             name: StorPool
             homepage_url: https://www.storpool.com/
@@ -1925,6 +1935,13 @@ landscape:
               mailing_list_url: https://groups.google.com/forum/#!forum/karmada
               slack_url: https://karmada-io.slack.com/
           - item:
+            name: Koordinator
+            homepage_url: https://koordinator.sh
+            repo_url: https://github.com/koordinator-sh/koordinator
+            description: QoS based scheduling system for hybrid orchestration workloads on Kubernetes, bringing workloads the best layout and status.
+            logo: Koordinator.svg
+            crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+          - item:
             name: kube-rs
             description: kube-rs is the core Rust ecosystem for building applications against Kubernetes
             homepage_url: https://kube.rs
@@ -1999,6 +2016,9 @@ landscape:
               incubation: '2022-03-21'
           - item:
             name: wasmCloud
+            second_path:
+              - Wasm / Runtime
+              - Wasm / Installable Platform
             homepage_url: https://wasmcloud.com
             project: sandbox
             repo_url: https://github.com/wasmCloud/wasmCloud
@@ -2307,8 +2327,8 @@ landscape:
               Sangfor CNAD is a cloud native application proxy, that provides layer7&layer4 load balance service, high performance TLS encryption and decryption
               resource pool, and Ingress&Loadbalancer for kubernetes.
             homepage_url: https://www.sangfor.com.cn/product-and-solution/sangfor-its/5
-            twitter: null
             logo: sangfor.svg
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/sangfor-technologies
           - item:
             name: Skipper
@@ -2417,8 +2437,8 @@ landscape:
             homepage_url: https://github.com/hango-io
             repo_url: https://github.com/hango-io/hango-gateway
             logo: Hango.svg
-            crunchbase: https://www.crunchbase.com/organization/netease-com
             twitter: https://twitter.com/NetEase_Global
+            crunchbase: https://www.crunchbase.com/organization/netease-com
           - item:
             name: Kong
             homepage_url: https://konghq.com/
@@ -2611,6 +2631,13 @@ landscape:
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#service-mesh-performance-logos
               slack_url: https://cloud-native.slack.com/messages/service-mesh-performance
               mailing_list_url: https://groups.google.com/a/smp-spec.io/g/community
+          - item:
+            name: Slime
+            homepage_url: https://github.com/slime-io
+            repo_url: https://github.com/slime-io/slime
+            logo: Slime.svg
+            twitter: https://twitter.com/NetEase_Global
+            crunchbase: https://www.crunchbase.com/organization/netease-com
           - item:
             name: Traefik Mesh
             homepage_url: https://traefik.io/traefik-mesh
@@ -3968,13 +3995,14 @@ landscape:
           - item:
             name: Keptn
             homepage_url: https://www.keptn.sh
-            project: sandbox
+            project: incubating
             repo_url: https://github.com/keptn/keptn
             logo: keptn.svg
             twitter: https://twitter.com/keptnproject
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               accepted: '2020-06-23'
+              incubated: '2022-06-03'
               dev_stats_url: https://keptn.devstats.cncf.io/
               youtube_url: https://www.youtube.com/channel/UCHMn9HyAMeb81bRlaOuZyuQ
           - item:
@@ -4544,7 +4572,7 @@ landscape:
             name: Red Hat OpenShift
             description: Red Hat® OpenShift is a container application platform that brings docker and Kubernetes to the enterprise.
             homepage_url: https://www.redhat.com/en/technologies/cloud-computing/openshift
-            repo_url: https://github.com/openshift/origin
+            repo_url: https://github.com/openshift/kubernetes
             logo: red-hat-open-shift.svg
             twitter: https://twitter.com/openshift
             crunchbase: https://www.crunchbase.com/organization/red-hat
@@ -4796,6 +4824,14 @@ landscape:
             twitter: https://twitter.com/IBMcloud
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
+            name: InCloud OS
+            description: >-
+              InCloud OS, offering full lifecycle management services, is an application-centric platform which provides a High-available managed environment to
+              simplify the CI/CD, Deployment, Container Orchestration，ServiceMesh，scheduling and scaling of containerized applications.
+            homepage_url: https://www.inspur.com/lcjtww/2527835/2527836/2527854/index.html
+            logo: incloudos.svg
+            crunchbase: https://www.crunchbase.com/organization/inspur
+          - item:
             name: Inspur Cloud Container Engine and Inspur Open Platform
             description: >-
               Inspur Cloud Container Engine and Inpsur Open Platform is an application-oriented container management platform based on amd64 architecture. It
@@ -4850,8 +4886,8 @@ landscape:
               Mail.Ru Cloud Containers is a managed service for Kubernetes that makes it easy for you to run Kubernetes clusters on any OpenStack-compatible
               cloud. Mail.Ru Cloud Solutions provides hybrid cloud-based services that enable businesses to run their workload in a public or private cloud.
             homepage_url: https://mcs.mail.ru/en/
-            twitter: null
             logo: mail.ru.svg
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/mail-ru
           - item:
             name: Microsoft AKS Engine for Azure Stack
@@ -5465,7 +5501,6 @@ landscape:
             homepage_url: https://nitric.io/
             repo_url: https://github.com/nitrictech/nitric
             logo: nitric.svg
-            twitter: https://twitter.com/nitric_io
             crunchbase: https://www.crunchbase.com/organization/nitric
           - item:
             name: Serverless
@@ -6208,7 +6243,6 @@ landscape:
             repo_url: https://github.com/timescale/promscale
             logo: promscale.svg
             crunchbase: https://www.crunchbase.com/organization/timescaledb
-            twitter: https://twitter.com/timescaledb
           - item:
             name: Replex
             description: >-
@@ -6363,8 +6397,8 @@ landscape:
           - item:
             name: DataSet
             homepage_url: https://www.dataset.com
-            twitter: https://twitter.com/dataset_s1
             logo: dataset.svg
+            twitter: https://twitter.com/dataset_s1
             crunchbase: https://www.crunchbase.com/organization/scalyr
           - item:
             name: Elastic
@@ -6696,17 +6730,17 @@ landscape:
             logo: densify.svg
             crunchbase: https://www.crunchbase.com/organization/cirba-inc
           - item:
-            name: Granulate
-            homepage_url: https://www.granulate.io/
-            logo: granulate.svg
-            crunchbase: https://www.crunchbase.com/organization/granulate-cloud-solutions
-          - item:
             name: gocrane
             description: Crane (FinOps Crane) is an opensource project which manages cloud resource on Kubernetes stack, it is inspired by FinOps concepts.
             homepage_url: https://docs.gocrane.io/
             repo_url: https://github.com/gocrane/crane
             logo: gocrane.svg
             crunchbase: https://www.crunchbase.com/organization/tencent-cloud
+          - item:
+            name: Granulate
+            homepage_url: https://www.granulate.io/
+            logo: granulate.svg
+            crunchbase: https://www.crunchbase.com/organization/granulate-cloud-solutions
           - item:
             name: Infracost
             description: >-
@@ -7761,7 +7795,7 @@ landscape:
             homepage_url: https://mayadata.io/
             logo: mayadata.svg
             twitter: https://twitter.com/mayadata
-            crunchbase: https://www.crunchbase.com/organization/mayadata
+            crunchbase: https://www.crunchbase.com/organization/datacore-software
           - item:
             name: Mia-Platform (KCSP)
             description: >-
@@ -8589,6 +8623,14 @@ landscape:
             logo: cars.svg
             crunchbase: https://www.crunchbase.com/organization/china-academy-of-railway-sciences-cars
           - item:
+            name: CINQ (KTP)
+            description: >-
+              CINQ ICT is a consultancy agency based in the Netherlands, working for enterprise level companies to design, build and manage container platforms,
+              CI/CD pipelines, cloud platforms and software solutions in public cloud and multi/hybrid environments.
+            homepage_url: https://www.cinqict.nl/kubernetes/trainingen
+            logo: cinq-ict.svg
+            crunchbase: https://www.crunchbase.com/organization/cinq
+          - item:
             name: CloudIQ (KTP)
             description: CloudIQ delivers full-scale Kubernetes solutions from implementation to Kubernetes support & management to training in-house IT teams.
             homepage_url: https://cloudiqtech.com/kubernetes-deep-dive-workshop/
@@ -8995,7 +9037,9 @@ landscape:
             name: Boeing (member)
             homepage_url: https://www.boeing.com/
             logo: boeing.svg
+            enduser: true
             crunchbase: https://www.crunchbase.com/organization/boeing-7321
+            joined: '2022-04-22'
           - item:
             name: Cisco (member)
             homepage_url: https://www.cisco.com/
@@ -9128,7 +9172,9 @@ landscape:
             name: Coinbase (member)
             homepage_url: https://www.coinbase.com/
             logo: coinbase.svg
+            enduser: true
             crunchbase: https://www.crunchbase.com/organization/coinbase
+            joined: '2022-02-17'
           - item:
             name: Cox Communications (member)
             homepage_url: https://www.cox.com/business/home.html
@@ -9762,7 +9808,6 @@ landscape:
             name: China Telecom (member)
             homepage_url: https://www.chinatelecom.com.cn/
             stock_ticker: 0728.HK
-            twitter: https://twitter.com/chinateleglobal
             logo: china-telecom-cloud.svg
             crunchbase: https://www.crunchbase.com/organization/china-telcom
           - item:
@@ -10253,6 +10298,11 @@ landscape:
             homepage_url: https://www.doit-intl.com
             logo: doi-t-international-member.svg
             crunchbase: https://www.crunchbase.com/organization/doit-international
+          - item:
+            name: DoK Community (member)
+            homepage_url: https://www.dok.community/
+            logo: dok-community.svg
+            crunchbase: https://www.crunchbase.com/organization/data-on-kubernetes-community
           - item:
             name: Doppler (member)
             homepage_url: https://www.doppler.com/
@@ -11035,8 +11085,8 @@ landscape:
           - item:
             name: Mail.Ru Cloud Solutions (member)
             homepage_url: https://mcs.mail.ru
-            twitter: null
             logo: mail.ru.svg
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/mail-ru
           - item:
             name: MakinaRocks (member)
@@ -11165,8 +11215,8 @@ landscape:
           - item:
             name: Mondoo (member)
             homepage_url: https://mondoo.com
-            twitter: https://twitter.com/MondooHQ
             logo: mondoo.svg
+            twitter: https://twitter.com/MondooHQ
             crunchbase: https://www.crunchbase.com/organization/mondoo
           - item:
             name: Monostream (member)
@@ -11377,6 +11427,11 @@ landscape:
             homepage_url: https://www.okteto.com/
             logo: okteto.svg
             crunchbase: https://www.crunchbase.com/organization/okteto
+          - item:
+            name: Ondat (member)
+            homepage_url: https://www.ondat.io
+            logo: ondat.svg
+            crunchbase: https://www.crunchbase.com/organization/ondat
           - item:
             name: OnGres (member)
             homepage_url: https://www.ongres.com/
@@ -11990,11 +12045,6 @@ landscape:
             logo: stark-and-wayne.svg
             crunchbase: https://www.crunchbase.com/organization/stark-wayne
           - item:
-            name: StorageOS (member)
-            homepage_url: https://www.ondat.io
-            logo: storage-os-member.svg
-            crunchbase: https://www.crunchbase.com/organization/storageos
-          - item:
             name: Storm Reply (member)
             homepage_url: https://reply.com/storm-reply/en/kubernetes
             logo: storm-reply.svg
@@ -12347,7 +12397,6 @@ landscape:
             name: Wayfair (member)
             homepage_url: https://www.wayfair.com/
             logo: wayfair.svg
-            stock_ticker: null
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/wayfair
             joined: '2022-04-27'
@@ -13132,7 +13181,6 @@ landscape:
           - item:
             name: Ultimate Software (supporter)
             homepage_url: https://www.ultimatesoftware.com/
-            stock_ticker: null
             logo: ultimate-software.svg
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/ultimate-software
